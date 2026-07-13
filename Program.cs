@@ -61,20 +61,13 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("ClientCors", policy =>
     {
-        policy.WithOrigins("http://localhost:3000") // React dev server
-              .AllowAnyHeader()
-              .AllowAnyMethod();
-    });
-
-    options.AddPolicy("ClientCors", policy =>
-    {
-        policy
-            .WithOrigins(
+        policy.WithOrigins(
+                "http://localhost:3000",   // React dev server
                 "http://localhost:5173",   // Vite React
                 "https://localhost:5173"
-            )
-            .AllowAnyHeader()
-            .AllowAnyMethod();
+              )
+              .AllowAnyHeader()
+              .AllowAnyMethod();
     });
 });
 
@@ -87,7 +80,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseCors("ClientCors");
 app.UseCors("ClientCors");
 
 
