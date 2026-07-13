@@ -346,4 +346,3 @@ D:\Web Projects\CakeyNuts Internal\Host\cakeynuts-int-back\bin\Debug\net8.0\Cake
 D:\Web Projects\CakeyNuts Internal\Host\cakeynuts-int-back\bin\Debug\net8.0\CakeyNuts.backend.pdb
 D:\Web Projects\CakeyNuts Internal\Host\cakeynuts-int-back\obj\Debug\net8.0\CakeyNuts.backend.genruntimeconfig.cache
 D:\Web Projects\CakeyNuts Internal\Host\cakeynuts-int-back\obj\Debug\net8.0\ref\CakeyNuts.backend.dll
-D:\Web Projects\CakeyNuts Internal\Host\cakeynuts-int-back\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
