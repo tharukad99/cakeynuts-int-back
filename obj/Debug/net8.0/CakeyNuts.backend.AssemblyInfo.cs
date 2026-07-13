@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CakeyNuts.backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb42049b046e432234719767060d996afe6d1666")]
 [assembly: System.Reflection.AssemblyProductAttribute("CakeyNuts.backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CakeyNuts.backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

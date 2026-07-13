@@ -61,11 +61,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("ClientCors", policy =>
     {
-        policy.WithOrigins(
-                "http://localhost:3000",   // React dev server
-                "http://localhost:5173",   // Vite React
-                "https://localhost:5173"
-              )
+        policy.AllowAnyOrigin()
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
@@ -87,6 +83,12 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    await dbContext.Database.MigrateAsync();
+}
 
 await CakeyNuts.Api.Data.DbSeeder.SeedRolesAsync(app.Services);
 

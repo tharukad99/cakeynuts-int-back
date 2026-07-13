@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "No+2WD6+L3M=",
+  "dgSpecHash": "VPPGok1G49A=",
   "success": true,
-  "projectFilePath": "D:\\Web Projects\\CakeyNuts Internal\\CakeyNuts.backend\\CakeyNuts.backend.csproj",
+  "projectFilePath": "D:\\Web Projects\\CakeyNuts Internal\\Host\\cakeynuts-int-back\\CakeyNuts.backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tharu\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\tharu\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
